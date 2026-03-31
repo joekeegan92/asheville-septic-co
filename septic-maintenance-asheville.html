@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Septic Maintenance in Asheville, NC | Asheville Septic Co</title>
+  <meta name="description" content="Learn what septic maintenance actually means for Asheville and Buncombe County homeowners — pumping schedules, drain field care, early warning signs, and the mistakes that lead to expensive repairs." />
+  <meta name="keywords" content="septic maintenance Asheville NC, septic tank maintenance Buncombe County, how often pump septic tank, septic system care, septic pumping schedule" />
+  <link rel="canonical" href="https://www.ashevillesepticco.com/septic-maintenance-asheville" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─────────────────────────────────────────
+       TOKENS — inspection system, single source
+    ───────────────────────────────────────── */
+    :root {
+      --forest:       #1e3a2f;
+      --forest-mid:   #2d5540;
+      --forest-light: #3d7a5a;
+      --sage:         #7aab8e;
+      --cream:        #f5f0e8;
+      --warm-white:   #fdfaf5;
+      --ink:          #2e2e2e;
+      --muted:        #6b7280;
+      --border:       #ddd5c8;
+      --alert-amber:  #92400e;
+      --alert-bg:     #fffbeb;
+      --alert-border: #f59e0b;
+      --cta-green:    #2d5540;
+      --cta-hover:    #1e3a2f;
+      --accent:       #c8a96e;
+
+      --font-serif: 'Lora', Georgia, serif;
+      --font-sans:  'DM Sans', system-ui, sans-serif;
+      --max-w:      900px;
+      --section-gap: 5rem;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--warm-white);
+      color: var(--ink);
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: var(--forest-light); text-decoration: underline; }
+    a:hover { color: var(--forest); }
+
+    /* ─────────────────────────────────────────
+       UTILITY
+    ───────────────────────────────────────── */
+    .container {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    .section { padding: var(--section-gap) 0; }
+    .section + .section { border-top: 1px solid var(--border); }
+
+    .label {
+      display: inline-block;
+      font-family: var(--font-sans);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--sage);
+      margin-bottom: 0.75rem;
+    }
+
+    /* ── Typography — inspection standard ── */
+    h1, h2, h3, h4 { font-family: var(--font-serif); color: var(--forest); line-height: 1.25; }
+    h1 { font-size: clamp(2rem, 5vw, 2.9rem); font-weight: 700; }
+    h2 { font-size: clamp(1.5rem, 3.5vw, 2rem); font-weight: 600; margin-bottom: 1rem; }
+    h3 { font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem; }
+    h4 { font-size: 1rem; font-weight: 600; margin-bottom: 0.4rem; }
+
+    p { margin-bottom: 1rem; color: var(--ink); }
+    p:last-child { margin-bottom: 0; }
+    ul { padding-left: 1.4rem; }
+    ul li { margin-bottom: 0.45rem; }
+
+    /* ─────────────────────────────────────────
+       SITE HEADER — exact match to inspection
+    ───────────────────────────────────────── */
+    .site-header {
+      background: var(--forest);
+      padding: 0.85rem 1.25rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .site-header .brand {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+    }
+    .site-header .brand span { color: var(--accent); }
+
+    .site-nav {
+      display: flex;
+      align-items: center;
+      gap: 0.15rem;
+      flex-wrap: wrap;
+    }
+    .site-nav a {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.72);
+      text-decoration: none;
+      padding: 0.3rem 0.5rem;
+      border-radius: 3px;
+      white-space: nowrap;
+      transition: color 0.2s, background 0.2s;
+    }
+    .site-nav a:hover { color: #fff; background: rgba(255,255,255,0.09); }
+
+    .header-cta {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      color: var(--cream);
+      text-decoration: none;
+      border: 1px solid var(--sage);
+      border-radius: 4px;
+      padding: 0.45rem 1rem;
+      white-space: nowrap;
+      transition: background 0.2s, color 0.2s;
+    }
+    .header-cta:hover { background: var(--sage); color: var(--forest); }
+
+    /* ─────────────────────────────────────────
+       HERO — inspection system, left-aligned
+    ───────────────────────────────────────── */
+    .hero {
+      background: var(--forest);
+      background-image:
+        radial-gradient(ellipse at 70% 50%, rgba(61,122,90,0.25) 0%, transparent 60%),
+        radial-gradient(ellipse at 10% 80%, rgba(200,169,110,0.12) 0%, transparent 50%);
+      color: #fff;
+      padding: 4.5rem 1.25rem 4rem;
+    }
+    .hero-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+    }
+    .hero .label { color: var(--accent); }
+    .hero h1 { color: #fff; max-width: 720px; margin-bottom: 1.25rem; }
+    .hero-lead {
+      font-size: 1.15rem;
+      color: rgba(255,255,255,0.82);
+      max-width: 640px;
+      margin-bottom: 2rem;
+      line-height: 1.65;
+    }
+    .hero-callout {
+      background: rgba(255,255,255,0.08);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 6px 6px 0;
+      padding: 1.1rem 1.4rem;
+      max-width: 560px;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.82);
+      margin-bottom: 2rem;
+    }
+    .hero-callout strong { color: #fff; }
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+    }
+
+    /* ─────────────────────────────────────────
+       BUTTONS — exact match to inspection
+    ───────────────────────────────────────── */
+    .btn-primary {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--forest);
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-primary:hover { background: #d4b87c; transform: translateY(-1px); color: var(--forest); }
+
+    .btn-ghost {
+      display: inline-block;
+      background: transparent;
+      color: rgba(255,255,255,0.85);
+      font-family: var(--font-sans);
+      font-weight: 500;
+      font-size: 0.95rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: 5px;
+      border: 1px solid rgba(255,255,255,0.3);
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-ghost:hover { border-color: rgba(255,255,255,0.7); color: #fff; }
+
+    .btn-solid {
+      display: inline-block;
+      background: var(--cta-green);
+      color: #fff;
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-solid:hover { background: var(--cta-hover); color: #fff; }
+
+    .btn-outline-dark {
+      display: inline-block;
+      background: transparent;
+      color: var(--cta-green);
+      font-family: var(--font-sans);
+      font-weight: 500;
+      font-size: 0.95rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: 5px;
+      border: 1.5px solid var(--cta-green);
+      text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+    }
+    .btn-outline-dark:hover { background: var(--forest); color: #fff; border-color: var(--forest); }
+
+    /* ─────────────────────────────────────────
+       TRUST BAR — exact match to inspection
+    ───────────────────────────────────────── */
+    .trust-bar {
+      background: var(--cream);
+      border-bottom: 1px solid var(--border);
+      padding: 0.9rem 1.25rem;
+    }
+    .trust-bar-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      align-items: center;
+      justify-content: center;
+    }
+    .trust-item {
+      font-size: 0.82rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .trust-item svg { flex-shrink: 0; }
+
+    /* ─────────────────────────────────────────
+       TENSION STRIP
+    ───────────────────────────────────────── */
+    .tension-strip {
+      background: var(--forest-mid);
+      padding: 0.9rem 1.25rem;
+      text-align: center;
+    }
+    .tension-strip p {
+      margin: 0;
+      font-size: 0.93rem;
+      color: rgba(255,255,255,0.82);
+      font-style: italic;
+      letter-spacing: 0.01em;
+    }
+
+    /* ─────────────────────────────────────────
+       SCENARIO CARDS — inspection pattern
+    ───────────────────────────────────────── */
+    .scenario-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .scenario-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      transition: box-shadow 0.2s;
+    }
+    .scenario-card:hover { box-shadow: 0 4px 18px rgba(30,58,47,0.1); }
+
+    /* Card icon — using token bg, not hardcoded green */
+    .card-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 6px;
+      background: var(--cream);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      margin-bottom: 0.9rem;
+    }
+    .scenario-card h3 { font-size: 1.05rem; margin-bottom: 0.35rem; }
+    .scenario-card p  { font-size: 0.88rem; color: var(--muted); margin: 0; }
+
+    /* Dark-section card variant */
+    .dark-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      padding: 1.25rem;
+    }
+    .dark-card .card-icon { background: rgba(122,171,142,0.25); }
+    .dark-card h3 { color: #fff; font-size: 1.05rem; margin-bottom: 0.35rem; }
+    .dark-card p  { color: rgba(255,255,255,0.72); font-size: 0.88rem; margin: 0; }
+
+    /* ─────────────────────────────────────────
+       CALLOUT BOXES — inspection system
+    ───────────────────────────────────────── */
+    .callout-info {
+      background: #f0fdf4;
+      border-left: 4px solid var(--sage);
+      border-radius: 0 6px 6px 0;
+      padding: 1.1rem 1.25rem;
+      margin: 1.75rem 0;
+      font-size: 0.92rem;
+    }
+    .callout-info p { color: #166534; margin: 0; }
+    .callout-info strong { color: #14532d; }
+
+    .callout-amber {
+      background: var(--alert-bg);
+      border-left: 4px solid var(--alert-border);
+      border-radius: 0 6px 6px 0;
+      padding: 1.1rem 1.25rem;
+      margin: 1.75rem 0;
+      font-size: 0.92rem;
+    }
+    .callout-amber p { color: #78350f; margin: 0; }
+    .callout-amber strong { color: var(--alert-amber); }
+    .callout-amber a { color: var(--alert-amber); }
+
+    /* Dark-section italic note */
+    .dark-note {
+      margin-top: 2.25rem;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.55);
+      border-left: 3px solid var(--sage);
+      padding-left: 1rem;
+      font-style: italic;
+    }
+
+    /* ─────────────────────────────────────────
+       PUMPING TABLE — inspection compare-table
+       th: font-sans + uppercase to match system
+    ───────────────────────────────────────── */
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 10px;
+      margin: 2rem 0;
+    }
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin-bottom: 0;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .compare-table thead { background: var(--forest); color: #fff; }
+    .compare-table th {
+      padding: 0.9rem 1.1rem;
+      text-align: left;
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .compare-table td {
+      padding: 0.85rem 1.1rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      vertical-align: top;
+    }
+    .compare-table td em { font-style: normal; color: var(--alert-amber); font-weight: 600; }
+    .compare-table tr:last-child td { border-bottom: none; }
+    .compare-table tbody tr:nth-child(odd)  { background: #fff; }
+    .compare-table tbody tr:nth-child(even) { background: var(--warm-white); }
+    .compare-table tbody tr:hover { background: var(--cream); }
+
+    /* ─────────────────────────────────────────
+       SPLIT COLUMN — habits section
+    ───────────────────────────────────────── */
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+      margin-top: 2rem;
+    }
+    .split h3 { margin-bottom: 1rem; }
+
+    /* ─────────────────────────────────────────
+       CHECK / WARN / X LISTS
+    ───────────────────────────────────────── */
+    .check-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .check-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.7rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.93rem;
+      color: var(--ink);
+    }
+    .check-list li:last-child { border-bottom: none; }
+    .check-icon {
+      flex-shrink: 0;
+      width: 1.2rem;
+      height: 1.2rem;
+      background: var(--forest-light);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.2rem;
+    }
+    .check-icon svg { width: 0.65rem; height: 0.65rem; }
+
+    .warn-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .warn-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.7rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.93rem;
+      color: var(--ink);
+    }
+    .warn-list li:last-child { border-bottom: none; }
+    .warn-list li::before {
+      content: '⚠';
+      color: var(--alert-border);
+      font-size: 0.88rem;
+      margin-top: 0.15rem;
+      flex-shrink: 0;
+    }
+
+    .x-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .x-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.7rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #fca5a5;
+      font-size: 0.93rem;
+      color: #7f1d1d;
+    }
+    .x-list li:last-child { border-bottom: none; }
+    .x-list li::before {
+      content: '✗';
+      color: #c0392b;
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+
+    /* ─────────────────────────────────────────
+       CAN / CANNOT BOXES
+    ───────────────────────────────────────── */
+    .two-col-table {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .can-box {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--forest-light);
+      border-radius: 8px;
+      padding: 1.5rem 1.4rem;
+    }
+    .cannot-box {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-top: 3px solid #c0392b;
+      border-radius: 8px;
+      padding: 1.5rem 1.4rem;
+    }
+    .can-box h3 { color: var(--forest-mid); margin-bottom: 1rem; }
+    .cannot-box h3 { color: #c0392b; margin-bottom: 1rem; }
+
+    /* ─────────────────────────────────────────
+       SYMPTOM CARDS — overdue signs grid
+    ───────────────────────────────────────── */
+    .symptom-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .symptom-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      transition: box-shadow 0.2s;
+    }
+    .symptom-card:hover { box-shadow: 0 4px 18px rgba(30,58,47,0.1); }
+    .symptom-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--alert-border);
+      margin-top: 0.4rem;
+      flex-shrink: 0;
+    }
+    .symptom-card strong {
+      display: block;
+      color: var(--forest);
+      font-size: 0.93rem;
+      margin-bottom: 0.25rem;
+      font-family: var(--font-sans);
+    }
+    .symptom-card p { font-size: 0.85rem; color: var(--muted); margin: 0; }
+
+    /* ─────────────────────────────────────────
+       SYMPTOM DECODER — "What This Usually Means"
+       Removed max-width: 800px — fills container
+    ───────────────────────────────────────── */
+    .symptom-decoder {
+      margin-top: 2rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .symptom-row {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 0;
+      align-items: stretch;
+      border-bottom: 1px solid var(--border);
+    }
+    .symptom-row:last-child { border-bottom: none; }
+    .symptom-row:first-child {
+      background: var(--forest);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.6);
+    }
+    .symptom-row:first-child .sym-if,
+    .symptom-row:first-child .sym-then { padding: 0.7rem 1.25rem; color: rgba(255,255,255,0.6); }
+    .sym-if {
+      padding: 1rem 1.25rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+    }
+    .sym-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem 0.5rem;
+      color: var(--sage);
+      font-size: 1.1rem;
+      background: var(--cream);
+      border-left: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      min-width: 2.5rem;
+    }
+    .sym-arrow.amber { color: var(--alert-border); }
+    .sym-then {
+      padding: 1rem 1.25rem;
+      font-size: 0.88rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+    }
+    .symptom-row:nth-child(even) .sym-if  { background: var(--warm-white); }
+    .symptom-row:nth-child(even) .sym-then { background: var(--warm-white); }
+
+    /* ─────────────────────────────────────────
+       DARK SECTION — mistakes
+    ───────────────────────────────────────── */
+    .dark-section {
+      background: var(--forest);
+      background-image: radial-gradient(ellipse at 80% 30%, rgba(61,122,90,0.2) 0%, transparent 60%);
+      color: #fff;
+      padding: var(--section-gap) 0;
+    }
+    .dark-section .label { color: var(--sage); }
+    .dark-section h2 { color: #fff; }
+    .dark-section p  { color: rgba(255,255,255,0.78); }
+    .dark-section .scenario-grid { margin-top: 2rem; }
+
+    /* ─────────────────────────────────────────
+       MID-PAGE CTA — not-sure-box (inspection)
+    ───────────────────────────────────────── */
+    .not-sure-box {
+      border: 2px solid var(--sage);
+      border-radius: 10px;
+      padding: 2rem;
+      background: #fff;
+    }
+    .not-sure-box .label { color: var(--forest-light); }
+    .not-sure-box h2 { margin-bottom: 0.75rem; }
+    .not-sure-box > p { color: var(--muted); max-width: 560px; }
+    .not-sure-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+    /* Note line below not-sure-box buttons */
+    .not-sure-note {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    /* ─────────────────────────────────────────
+       LINK CHIPS — related topics
+    ───────────────────────────────────────── */
+    .link-chips {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+    .link-chip {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+      color: var(--forest);
+      font-weight: 500;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+    .link-chip:hover {
+      box-shadow: 0 4px 16px rgba(30,58,47,0.1);
+      border-color: var(--sage);
+      color: var(--forest);
+    }
+    .link-chip-icon { font-size: 1.1rem; flex-shrink: 0; }
+    .link-chip-arrow { margin-left: auto; color: var(--sage); font-size: 0.82rem; }
+
+    /* ─────────────────────────────────────────
+       FINAL CTA — exact match to inspection
+    ───────────────────────────────────────── */
+    .final-cta {
+      background: var(--forest);
+      background-image:
+        radial-gradient(ellipse at 20% 60%, rgba(61,122,90,0.3) 0%, transparent 55%),
+        radial-gradient(ellipse at 85% 20%, rgba(200,169,110,0.15) 0%, transparent 50%);
+      color: #fff;
+      padding: 4.5rem 1.25rem;
+      text-align: center;
+    }
+    .final-cta .label { color: var(--sage); }
+    .final-cta h2 { color: #fff; font-size: clamp(1.6rem, 4vw, 2.2rem); margin-bottom: 0.75rem; }
+    .final-cta p  { color: rgba(255,255,255,0.75); max-width: 520px; margin: 0 auto 2rem; font-size: 1.05rem; }
+    .final-cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .final-cta-note {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.45);
+      margin-top: 1.5rem;
+    }
+
+    /* ─────────────────────────────────────────
+       FOOTER — exact match to inspection
+    ───────────────────────────────────────── */
+    .site-footer {
+      background: #111;
+      color: rgba(255,255,255,0.5);
+      padding: 2rem 1.25rem;
+      font-size: 0.82rem;
+      text-align: center;
+    }
+    .site-footer a { color: rgba(255,255,255,0.55); text-decoration: none; }
+    .site-footer a:hover { color: rgba(255,255,255,0.85); }
+    .footer-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      align-items: center;
+    }
+    .footer-brand { font-family: var(--font-serif); color: #fff; font-size: 1rem; }
+    .footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+      justify-content: center;
+    }
+
+    /* ─────────────────────────────────────────
+       STICKY MOBILE CTA
+    ───────────────────────────────────────── */
+    .sticky-cta {
+      display: none;
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: var(--forest);
+      padding: 0.85rem 1.25rem;
+      z-index: 999;
+      justify-content: center;
+    }
+    .sticky-cta a {
+      flex: 1;
+      max-width: 260px;
+      text-align: center;
+      background: var(--accent);
+      color: var(--forest);
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 0.75rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    /* ─────────────────────────────────────────
+       RESPONSIVE
+    ───────────────────────────────────────── */
+    @media (max-width: 860px) { .site-nav { display: none; } }
+    @media (max-width: 680px) {
+      .split { grid-template-columns: 1fr; gap: 2rem; }
+      .two-col-table { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .section { padding: 3rem 0; }
+      .hero { padding: 3rem 1.25rem 2.5rem; }
+      .symptom-row { grid-template-columns: 1fr; }
+      .symptom-row:first-child { display: none; }
+      .sym-arrow { display: none; }
+      .sym-if { padding: 0.85rem 1rem 0.25rem; font-weight: 600; font-size: 0.88rem; }
+      .sym-then { padding: 0.25rem 1rem 0.85rem; display: block; }
+      .not-sure-box { padding: 1.5rem; }
+      .sticky-cta { display: flex; }
+      body { padding-bottom: 4rem; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://www.ashevillesepticco.com/#business",
+        "name": "Asheville Septic Co",
+        "url": "https://www.ashevillesepticco.com",
+        "telephone": "+18289009899",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Asheville",
+          "addressRegion": "NC",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          {"@type": "City", "name": "Asheville"},
+          {"@type": "AdministrativeArea", "name": "Buncombe County, NC"}
+        ],
+        "serviceType": "Septic Services"
+      },
+      {
+        "@type": "Service",
+        "name": "Septic System Maintenance in Asheville, NC",
+        "provider": {"@id": "https://www.ashevillesepticco.com/#business"},
+        "areaServed": "Asheville, NC",
+        "url": "https://www.ashevillesepticco.com/septic-maintenance-asheville"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.ashevillesepticco.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Septic Maintenance", "item": "https://www.ashevillesepticco.com/septic-maintenance-asheville"}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════
+     SITE HEADER
+═══════════════════════════════════════ -->
+<header class="site-header">
+  <a href="https://www.ashevillesepticco.com/" class="brand">Asheville <span>Septic Co</span></a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="https://www.ashevillesepticco.com/">Home</a>
+    <a href="https://www.ashevillesepticco.com/septic-inspection-asheville">Septic Inspection</a>
+    <a href="https://www.ashevillesepticco.com/septic-pumping-asheville">Septic Pumping</a>
+    <a href="https://www.ashevillesepticco.com/septic-repair-asheville">Septic Repair</a>
+    <a href="https://www.ashevillesepticco.com/septic-replacement-asheville">Septic Replacement</a>
+    <a href="https://www.ashevillesepticco.com/drain-field-issues-asheville">Drain Field Issues</a>
+    <a href="https://www.ashevillesepticco.com/septic-smells-asheville">Septic Smells</a>
+    <a href="https://www.ashevillesepticco.com/septic-maintenance-asheville">Septic Maintenance</a>
+  </nav>
+  <a href="tel:+18289009899" class="header-cta">📞 (828) 900-9899</a>
+</header>
+
+
+<!-- ═══════════════════════════════════════
+     HERO
+═══════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-inner">
+    <span class="label">Asheville &amp; Buncombe County</span>
+    <h1>Septic Maintenance in Asheville, NC</h1>
+    <p class="hero-lead">
+      Most septic replacements in Western NC didn't have to happen. They started with a few skipped pumpings, a slow drain that got ignored, and an assumption that "no news is good news." Maintenance doesn't have to be complicated — but it does have to be consistent.
+    </p>
+    <div class="hero-callout">
+      💡 A routine pumping costs a few hundred dollars. A drain field replacement in Buncombe County routinely runs <strong>$8,000–$20,000+</strong>. The math strongly favors maintenance.
+    </div>
+    <div class="hero-buttons">
+      <a href="tel:+18289009899" class="btn-primary">📞 Call (828) 900-9899</a>
+      <a href="#maintenance-basics" class="btn-ghost">See the Maintenance Guide ↓</a>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <span class="trust-item">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="#7aab8e" stroke-width="1.5"/><path d="M5 8l2 2 4-4" stroke="#7aab8e" stroke-width="1.5" stroke-linecap="round"/></svg>
+      Serving Asheville &amp; Buncombe County
+    </span>
+    <span class="trust-item">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="#7aab8e" stroke-width="1.5"/><path d="M5 8l2 2 4-4" stroke="#7aab8e" stroke-width="1.5" stroke-linecap="round"/></svg>
+      Honest Advice, No Upsells
+    </span>
+    <span class="trust-item">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="#7aab8e" stroke-width="1.5"/><path d="M5 8l2 2 4-4" stroke="#7aab8e" stroke-width="1.5" stroke-linecap="round"/></svg>
+      Licensed in North Carolina
+    </span>
+    <span class="trust-item">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="#7aab8e" stroke-width="1.5"/><path d="M5 8l2 2 4-4" stroke="#7aab8e" stroke-width="1.5" stroke-linecap="round"/></svg>
+      Pumping, Inspection &amp; Repair
+    </span>
+  </div>
+</div>
+
+<!-- TENSION STRIP -->
+<div class="tension-strip">
+  <div class="container">
+    <p>Most septic replacements in Western NC start with skipped maintenance — not sudden failure.</p>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════
+     WHAT MAINTENANCE ACTUALLY MEANS
+═══════════════════════════════════════ -->
+<section class="section" id="maintenance-basics" style="background: var(--cream);">
+  <div class="container">
+    <span class="label">The basics</span>
+    <h2>What Septic Maintenance Actually Means</h2>
+    <p>Most homeowners think "maintenance" means pumping. That's part of it — but only part. A well-maintained septic system involves a handful of consistent habits that keep each component doing its job.</p>
+
+    <div class="scenario-grid">
+      <div class="scenario-card">
+        <div class="card-icon">🪣</div>
+        <h3>Regular Pumping</h3>
+        <p>Removing accumulated solids from the tank before they reach levels that push sludge into the drain field. This is the single most impactful maintenance task.</p>
+      </div>
+      <div class="scenario-card">
+        <div class="card-icon">🔍</div>
+        <h3>Periodic Inspections</h3>
+        <p>Checking baffles, lids, risers, effluent levels, and drain field condition. Pumping without inspection is incomplete — you can't know what's happening inside without looking.</p>
+      </div>
+      <div class="scenario-card">
+        <div class="card-icon">🌿</div>
+        <h3>Drain Field Protection</h3>
+        <p>Keeping vehicles, heavy machinery, deep-rooted plants, and excess surface water away from the area above your drain field. This protects what you can't easily see or replace.</p>
+      </div>
+      <div class="scenario-card">
+        <div class="card-icon">💧</div>
+        <h3>Water Use Awareness</h3>
+        <p>Spreading out laundry loads, fixing leaking toilets promptly, and being aware of how much water enters the system in a given day. Overloading a septic system shortens its life.</p>
+      </div>
+      <div class="scenario-card">
+        <div class="card-icon">🚫</div>
+        <h3>Watching What Goes In</h3>
+        <p>Grease, wipes, medications, harsh chemicals, and excessive garbage disposal use all disrupt the bacterial balance that makes a septic system work. What enters the drain matters.</p>
+      </div>
+      <div class="scenario-card">
+        <div class="card-icon">🔧</div>
+        <h3>Fixing Small Issues Early</h3>
+        <p>A slow drain, a gurgling toilet, or a slightly wet patch near the tank are early warnings. Addressing them at minor-repair cost prevents them from becoming major-repair problems.</p>
+      </div>
+    </div>
+
+    <div class="callout-info">
+      <p>What feels like a small delay — skipping one pumping cycle, ignoring a slow drain — is often where bigger problems begin.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     PUMPING FREQUENCY
+═══════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <span class="label">Pumping schedule</span>
+    <h2>How Often Should You Pump Your Septic Tank?</h2>
+    <p>The honest answer: it depends. A single-person household with a 1,500-gallon tank and no garbage disposal is in a very different situation from a five-person household with a 1,000-gallon tank and heavy daily use. Generic "every 3–5 years" advice is a starting point — not a plan.</p>
+
+    <div class="table-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Household Size</th>
+            <th>Tank Size (gal)</th>
+            <th>Suggested Interval</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1–2 people</td>
+            <td>1,000 – 1,250</td>
+            <td>Every 4–6 years</td>
+            <td>Extend if no garbage disposal</td>
+          </tr>
+          <tr>
+            <td>3–4 people</td>
+            <td>1,000 – 1,250</td>
+            <td>Every 3–4 years</td>
+            <td>Standard Buncombe County home range</td>
+          </tr>
+          <tr>
+            <td>3–4 people</td>
+            <td>1,500 – 2,000</td>
+            <td>Every 4–5 years</td>
+            <td>Larger tank buys more time</td>
+          </tr>
+          <tr>
+            <td>5+ people</td>
+            <td>Any size</td>
+            <td><em>Every 2–3 years</em></td>
+            <td>High-load household, err toward shorter intervals</td>
+          </tr>
+          <tr>
+            <td>Any size</td>
+            <td>Any size</td>
+            <td><em>Annual inspection</em></td>
+            <td>If system is 15+ years old or has no service records</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout-amber">
+      <p><strong>Garbage disposals matter.</strong> They push significantly more solids into the tank. If you use one regularly, move your pumping schedule at least one year earlier than the table above suggests. Some installers recommend adding tank capacity if you won't change this habit.</p>
+    </div>
+
+    <div class="callout-info">
+      <p><strong>No service records?</strong> If you bought your home and have no idea when it was last pumped, treat this as overdue and get it pumped and inspected now. Guessing incorrectly is expensive. Assuming the previous owners were diligent is a risk not worth taking.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     BEST HABITS
+═══════════════════════════════════════ -->
+<section class="section" style="background: var(--cream);">
+  <div class="container">
+    <span class="label">Daily practices</span>
+    <h2>Best Habits for Extending the Life of Your System</h2>
+    <p>These aren't complicated. They're the kind of thing that costs nothing to do and prevents thousands of dollars of damage over the course of a system's life.</p>
+
+    <div class="split">
+      <div>
+        <h3>What to do</h3>
+        <ul class="check-list">
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Spread laundry over several days rather than running 6 loads on Saturday
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Fix leaky faucets and running toilets promptly — even a slow running toilet adds thousands of gallons per month
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Route roof gutters and downspouts away from the drain field area
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Plant only grass or shallow-rooted groundcover over the drain field
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Keep service records — know when it was last pumped, inspected, and what was found
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Watch the drain field area for wet spots, lush patches, or odor after rain
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Schedule pumping before you sell or buy a property — not after problems are discovered
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Treat minor symptoms (slow drain, gurgling) as diagnostic clues, not nuisances
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>What to avoid</h3>
+        <ul class="warn-list">
+          <li>Pouring grease, fats, or cooking oils down any drain</li>
+          <li>Flushing "flushable" wipes — they are not septic-safe regardless of the label</li>
+          <li>Parking or driving vehicles over the tank or drain field area</li>
+          <li>Using septic additives as a substitute for pumping or actual maintenance</li>
+          <li>Ignoring gurgling sounds, slow drains, or odor near the tank — these are symptoms, not quirks</li>
+          <li>Putting medications, paint, harsh chemicals, or antibacterial products in drains</li>
+          <li>Allowing surface water to pool near or over the drain field after heavy rain</li>
+          <li>Assuming a system is fine because no one has complained about it</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout-info">
+      <p><strong>A word on additives:</strong> There is no peer-reviewed evidence that septic additives — enzyme treatments, bacterial boosters, powder packets — meaningfully extend system life or reduce pumping frequency. A healthy septic system already contains the bacteria it needs. We mention this not to dismiss the products entirely, but because many homeowners use them to feel like they're doing something while skipping actual pumping schedules. Don't let an additive become a reason to delay real service.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     CAN / CANNOT
+═══════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <span class="label">Honest expectations</span>
+    <h2>What Maintenance Can Prevent — and What It Can't</h2>
+    <p>This is the section most septic companies skip. Maintenance is genuinely powerful — but it's not magic, and it cannot undo years of damage or reverse certain types of failure. Understanding the difference helps you make smarter decisions.</p>
+
+    <div class="two-col-table">
+      <div class="can-box">
+        <h3>✓ Maintenance Can Prevent</h3>
+        <ul class="check-list">
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Sludge and scum buildup that pushes solids into the drain field
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Premature baffle failure from unchecked solids levels
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Early-stage drain field stress from overloading
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Emergency pumping calls from backup situations
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Unknown system conditions that surface during real estate transactions
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Small component issues becoming expensive structural repairs
+          </li>
+          <li>
+            <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Guessing — good maintenance creates a service history you can actually use
+          </li>
+        </ul>
+      </div>
+      <div class="cannot-box">
+        <h3>✗ Maintenance Cannot Fix</h3>
+        <ul class="x-list">
+          <li>A drain field that has already failed from years of neglect or overloading</li>
+          <li>Structural tank collapse or severe concrete deterioration</li>
+          <li>Soil saturation caused by prolonged system failure</li>
+          <li>Biomat buildup that has sealed drain field soil (in most cases)</li>
+          <li>Design flaws in the original system installation</li>
+          <li>Decades of deferred maintenance — pumping a neglected system is a start, not a cure</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout-amber">
+      <p><strong>If your system is already showing active failure symptoms</strong> — backups, sewage odor in the yard, standing water near the field — maintenance alone is not what you need. That's a <a href="https://www.ashevillesepticco.com/septic-repair-asheville">repair</a> or possibly a <a href="https://www.ashevillesepticco.com/septic-replacement-asheville">replacement</a> conversation. Pumping a failing system may relieve pressure temporarily, but it doesn't address the underlying problem.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     SIGNS OVERDUE
+═══════════════════════════════════════ -->
+<section class="section" style="background: var(--cream);">
+  <div class="container">
+    <span class="label">Warning signs</span>
+    <h2>Signs Your System Is Overdue for Maintenance</h2>
+    <p>These aren't always obvious — which is part of why septic problems get missed until they're expensive. Knowing what to look for gives you the chance to act early.</p>
+
+    <div class="symptom-grid">
+      <div class="symptom-card">
+        <div class="symptom-dot"></div>
+        <div>
+          <strong>It's been more than 5 years since the last pumping</strong>
+          <p>Time alone isn't the only factor, but if you're approaching 5 years with no service, it's worth checking.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-dot"></div>
+        <div>
+          <strong>Slow drains throughout the house</strong>
+          <p>One slow drain might be a clog. Multiple slow drains at once suggests the tank or system is backing up.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-dot"></div>
+        <div>
+          <strong>Sulfur or sewage odor near the tank or field</strong>
+          <p>Some odor after heavy rain is normal. Persistent smell outside — especially near the tank lid — is a signal to investigate.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-dot"></div>
+        <div>
+          <strong>Unusually green or lush grass over the drain field</strong>
+          <p>Greener-than-normal grass above the field often means effluent is surfacing — a sign the field is overwhelmed or the tank is full.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-dot"></div>
+        <div>
+          <strong>No service records from previous owners</strong>
+          <p>If you bought the house with no documentation, you have no idea what the system has been through. Don't assume good maintenance happened.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-dot"></div>
+        <div>
+          <strong>Backups during or after heavy rain or high use</strong>
+          <p>Systems that back up under load — lots of laundry, guests visiting — are approaching their capacity limit.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-dot"></div>
+        <div>
+          <strong>Gurgling sounds in drains or toilets</strong>
+          <p>Gurgling is air being displaced by a system that's struggling to move liquid. It often precedes a more noticeable problem.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-dot"></div>
+        <div>
+          <strong>Wet or soggy soil near the tank area</strong>
+          <p>Without recent heavy rain, wet soil above or near the tank often means the tank is leaking or severely overfull.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     WHAT THIS USUALLY MEANS
+═══════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <span class="label">Quick reference</span>
+    <h2>What This Usually Means</h2>
+    <p>If you recognized yourself in the list above, here's a fast read on what each symptom typically points to.</p>
+
+    <div class="symptom-decoder">
+      <div class="symptom-row">
+        <span class="sym-if">Symptom</span>
+        <span class="sym-arrow">→</span>
+        <span class="sym-then">What it typically means</span>
+      </div>
+      <div class="symptom-row">
+        <span class="sym-if">Over 5 years since pumping</span>
+        <span class="sym-arrow">→</span>
+        <span class="sym-then">System is likely overdue. Schedule a pump-and-inspect to establish where things stand.</span>
+      </div>
+      <div class="symptom-row">
+        <span class="sym-if">Slow drains throughout the house</span>
+        <span class="sym-arrow">→</span>
+        <span class="sym-then">Tank or system stress. Multiple slow drains at once point upstream — not to individual pipe clogs.</span>
+      </div>
+      <div class="symptom-row">
+        <span class="sym-if">Unusually green grass over the field</span>
+        <span class="sym-arrow amber">→</span>
+        <span class="sym-then">Possible effluent surfacing. The drain field may be receiving more than it can handle. Worth investigating promptly.</span>
+      </div>
+      <div class="symptom-row">
+        <span class="sym-if">No service records from previous owners</span>
+        <span class="sym-arrow amber">→</span>
+        <span class="sym-then">Unknown risk. An <a href="https://www.ashevillesepticco.com/septic-inspection-asheville">inspection</a> is the only way to understand what the system has actually been through.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     MISTAKES — dark section
+═══════════════════════════════════════ -->
+<section class="dark-section">
+  <div class="container">
+    <span class="label">Common mistakes</span>
+    <h2>Maintenance Mistakes That Lead to Expensive Problems</h2>
+    <p>These are the patterns we see repeatedly in Buncombe County when a homeowner ends up needing a repair or replacement that could have been avoided.</p>
+
+    <div class="scenario-grid">
+      <div class="dark-card">
+        <div class="card-icon">🔄</div>
+        <h3>Assuming Pumping Fixes Everything</h3>
+        <p>Pumping removes what's in the tank. It doesn't tell you whether the baffles are deteriorating, whether the drain field is stressed, or whether the effluent level indicates a problem. Pumping without inspection is half a job.</p>
+      </div>
+      <div class="dark-card">
+        <div class="card-icon">🧪</div>
+        <h3>Relying on Additives Instead of Service</h3>
+        <p>Septic additives may feel like maintenance. They are not. No additive eliminates the need for regular pumping, and some can actually disrupt the bacterial balance that keeps the system working.</p>
+      </div>
+      <div class="dark-card">
+        <div class="card-icon">🚗</div>
+        <h3>Parking or Driving Over the Field</h3>
+        <p>Even a single heavy vehicle can compact the soil above distribution lines enough to reduce percolation. Drain field soil structure is critical — once compacted or crushed, it doesn't recover easily.</p>
+      </div>
+      <div class="dark-card">
+        <div class="card-icon">👀</div>
+        <h3>Ignoring Minor Symptoms</h3>
+        <p>A gurgling toilet or slightly slow kitchen drain rarely fixes itself. These are early-warning signs, not quirks. The homeowners who act on them early pay small repair bills. Those who wait often pay for system replacement.</p>
+      </div>
+      <div class="dark-card">
+        <div class="card-icon">⏳</div>
+        <h3>Waiting Until There's a Backup</h3>
+        <p>By the time sewage is backing into the house, the system has been under stress for a significant period. This is not a maintenance situation — it's an emergency. And emergencies are more expensive, more disruptive, and sometimes irreversible.</p>
+      </div>
+      <div class="dark-card">
+        <div class="card-icon">📋</div>
+        <h3>No Records, No Awareness</h3>
+        <p>Not knowing when a system was last serviced means not being able to plan. If you don't have records, the first step is a pump-and-inspect to establish a baseline. Then keep records going forward.</p>
+      </div>
+    </div>
+
+    <p class="dark-note">Maintenance is cheap — until it's ignored. At that point, the conversation changes from pumping schedules to replacement quotes.</p>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     MID-PAGE CTA
+═══════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <div class="not-sure-box">
+      <span class="label">Not Sure Where You Stand?</span>
+      <h2>Not Sure If You're Maintaining Your System — or Falling Behind?</h2>
+      <p>Most expensive septic problems don't start as emergencies. They start as skipped basics. A short conversation can usually clarify whether you need pumping, inspection, or a closer look at something specific — before it becomes urgent.</p>
+      <div class="not-sure-buttons">
+        <a href="tel:+18289009899" class="btn-solid">📞 Call (828) 900-9899</a>
+        <a href="https://www.ashevillesepticco.com/septic-inspection-asheville" class="btn-outline-dark">Learn About Inspections</a>
+      </div>
+      <p class="not-sure-note">No obligation · Serving Asheville, Weaverville, Black Mountain, Swannanoa &amp; surrounding Buncombe County</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     YOU MIGHT NOT NEED THIS
+═══════════════════════════════════════ -->
+<section class="section" style="background: var(--cream);">
+  <div class="container">
+    <span class="label">Honest guidance</span>
+    <h2>You Might Not Need Maintenance Service Right Now</h2>
+    <p>We'd rather help you make a smart decision than sell you an unnecessary service call.</p>
+
+    <div style="background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; max-width: 680px; margin-top: 1.5rem;">
+      <ul class="check-list">
+        <li>
+          <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          If your system was pumped within the last 2–3 years, is performing normally, and you have no symptoms — you're likely on track. Keep the date and check in closer to your recommended interval.
+        </li>
+        <li>
+          <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          If you have no symptoms and good service records, a phone conversation can often tell you whether it's time to schedule service or wait.
+        </li>
+        <li>
+          <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          If you're noticing symptoms, don't delay — but also don't assume the worst. Many symptoms have simple explanations that don't require expensive service.
+        </li>
+        <li>
+          <span class="check-icon"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          If you're buying or selling a home, a pre-transaction inspection is worth more than a pumping alone — it tells you the actual condition of the system, not just when it was last emptied.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     INTERNAL LINKS
+═══════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <span class="label">Related topics</span>
+    <h2>Explore Related Septic Topics</h2>
+
+    <div class="link-chips">
+      <a href="https://www.ashevillesepticco.com/septic-pumping-asheville" class="link-chip">
+        <span class="link-chip-icon">🪣</span>
+        <span>Septic Tank Pumping</span>
+        <span class="link-chip-arrow">→</span>
+      </a>
+      <a href="https://www.ashevillesepticco.com/septic-inspection-asheville" class="link-chip">
+        <span class="link-chip-icon">🔍</span>
+        <span>Septic Inspections</span>
+        <span class="link-chip-arrow">→</span>
+      </a>
+      <a href="https://www.ashevillesepticco.com/septic-repair-asheville" class="link-chip">
+        <span class="link-chip-icon">🔧</span>
+        <span>Septic Repair</span>
+        <span class="link-chip-arrow">→</span>
+      </a>
+      <a href="https://www.ashevillesepticco.com/drain-field-issues-asheville" class="link-chip">
+        <span class="link-chip-icon">🌿</span>
+        <span>Drain Field Problems</span>
+        <span class="link-chip-arrow">→</span>
+      </a>
+      <a href="https://www.ashevillesepticco.com/septic-replacement-asheville" class="link-chip">
+        <span class="link-chip-icon">🏗</span>
+        <span>Septic Replacement</span>
+        <span class="link-chip-arrow">→</span>
+      </a>
+      <a href="https://www.ashevillesepticco.com/how-septic-systems-work-asheville" class="link-chip">How Septic Systems Work →</a>
+      <a href="https://www.ashevillesepticco.com/septic-smells-asheville" class="link-chip">
+        <span class="link-chip-icon">💨</span>
+        <span>Septic Odor &amp; Smell</span>
+        <span class="link-chip-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     FINAL CTA
+═══════════════════════════════════════ -->
+<section class="final-cta">
+  <div class="container">
+    <span class="label">Get started</span>
+    <h2>Ready to Get Your System on a Real Maintenance Schedule?</h2>
+    <p>Whether you need a first-time pump, an inspection, or just want to understand where your system stands — a quick call is the right first step.</p>
+    <div class="final-cta-buttons">
+      <a href="tel:+18289009899" class="btn-primary" style="font-size: 1rem; padding: 1rem 2.25rem;">
+        📞 Call (828) 900-9899
+      </a>
+      <a href="https://www.ashevillesepticco.com/septic-inspection-asheville" class="btn-ghost">
+        See What an Inspection Covers
+      </a>
+    </div>
+    <div class="final-cta-note">Asheville · Weaverville · Black Mountain · Swannanoa · Fairview · Arden · Buncombe County</div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">Asheville Septic Co — Asheville, NC</div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="https://www.ashevillesepticco.com/">Home</a>
+      <a href="https://www.ashevillesepticco.com/septic-inspection-asheville">Septic Inspection</a>
+      <a href="https://www.ashevillesepticco.com/septic-pumping-asheville">Septic Pumping</a>
+      <a href="https://www.ashevillesepticco.com/septic-repair-asheville">Septic Repair</a>
+      <a href="https://www.ashevillesepticco.com/septic-replacement-asheville">Septic Replacement</a>
+      <a href="https://www.ashevillesepticco.com/drain-field-issues-asheville">Drain Field Issues</a>
+      <a href="https://www.ashevillesepticco.com/septic-smells-asheville">Septic Smells</a>
+      <a href="https://www.ashevillesepticco.com/septic-maintenance-asheville">Septic Maintenance</a>
+    </nav>
+    <p>© 2025 Asheville Septic Co · Asheville, NC · Serving Buncombe County and Western NC</p>
+  </div>
+</footer>
+
+<!-- STICKY MOBILE CTA -->
+<div class="sticky-cta">
+  <a href="tel:+18289009899">📞 Call for Maintenance Help</a>
+</div>
+
+</body>
+</html>
