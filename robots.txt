@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ashevillesepticco.com/sitemap.xml
+Sitemap: https://ashevillesepticco.com/sitemap.xml
